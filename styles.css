@@ -41,7 +41,21 @@ body {
     padding: 50px;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: #fff;
+    color: #080505;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .hero h1 {
@@ -131,4 +145,49 @@ body {
     background-color: #222;
     color: #fff;
     font-size: 14px;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.contact-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-item:hover {
+    color: #007BFF;
+}
+html {
+    scroll-behavior: smooth;
 }
