@@ -191,3 +191,49 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+.project-content {
+    padding: 15px;
+}
+.project-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.tags {
+    margin-bottom: 10px;
+}
+.tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+.project-description {
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+.read-more {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
