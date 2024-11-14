@@ -118,7 +118,7 @@ body {
     background-color: #eee;
     padding: 0px;
     border-radius: 18px;
-    width: 150px;
+    width: 350px;
 }
 
 .testimonials {
@@ -236,4 +236,41 @@ html {
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
+}
+.header .menu-toggle {
+    display: block;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* codigo para boton subir */
+
+.btn-subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: none; /* Inicialmente oculto */
+    transition: background-color 0.3s;
+}
+
+.btn-subir:hover {
+    background-color: #0056b3;
+}
+
+/* Cuando el usuario hace scroll hacia abajo, se muestra el botón */
+.btn-subir.show {
+    display: block;
 }
